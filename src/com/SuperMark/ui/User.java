@@ -115,7 +115,7 @@ public class User{
 		
 			JTable table=null;
 			JScrollPane scrollPane=null;
-			Vector row,column;
+			Vector<?> row,column;
 			
 			PreparedStatement psBuy=null;
 			PreparedStatement psBuyInfor=null;
